@@ -1,0 +1,17 @@
+// C++ code
+//
+void setup()
+{
+  pinMode(6,INPUT); //laitetaan kytkin pinni INPUT:ksi
+  pinMode(5,OUTPUT); //led pinni OUTPUT:ksi
+  pinMode(4,OUTPUT); //led pinni OUTPUT:ksi
+  pinMode(3,OUTPUT); //led pinni OUTPUT:ksi
+}
+
+void loop()
+{
+  digitalWrite(5, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(5, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
