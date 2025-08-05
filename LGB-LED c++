@@ -1,0 +1,27 @@
+// C++ code
+//
+int ledpun = 12;
+int   ledvih = 11;
+int   ledsin = 10;
+void setup()
+{
+  pinMode(ledpun, OUTPUT);
+  pinMode(ledvih, OUTPUT);
+  pinMode(ledsin, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(ledpun, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(ledpun, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(ledvih, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(ledvih, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(ledsin, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(ledsin, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
